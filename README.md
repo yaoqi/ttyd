@@ -37,7 +37,11 @@ brew install ttyd
     make && make install
     ```
 
-- Build from source (centos):yum install vim-common cmake gcc gcc-c++ json-c-devel libwebsockets-devel openssl-devel
+- Build from source (centos):
+```
+yum install vim-common cmake gcc gcc-c++ json-c-devel libwebsockets-devel openssl-devel
+
+```
 
     You may also need to compile/install [libwebsockets][2] from source if the `libwebsockets-dev` package is outdated.
     
